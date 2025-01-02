@@ -5,6 +5,7 @@
 
 int main() {
    uint64_t totalMemorySize = Clay_MinMemorySize();
-   printf(" %d", totalMemorySize);
+   printf(" %d\n", totalMemorySize);
+   scanf("%*c");
    return 0;
 }
